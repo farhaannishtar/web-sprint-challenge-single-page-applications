@@ -30,13 +30,33 @@ You may use the following wireframes (also in a folder above) as guidance as you
 
 Commit your code regularly and meaningfully. This helps both you (in case you ever need to return to old code for any number of reasons) and the graders as they evaluate your solution.
 
+
+
+
 ## Interview Questions
 
 Demonstrate your understanding of this week's concepts by answering the following free-form questions. Edit this document to include your answers after each question.
 
 1. In 1-2 sentences, explain what React's `useRouteMatch` hook is used for.
-1. How would you explain form validation to someone who has never programmed before?
-1. In 1-2 sentences, define end to end testing.
+
+  useRouteMatch is a hook which gives us access to relative paths to the URL we wish to work with. 
+
+2. How would you explain form validation to someone who has never programmed before?
+
+  Form validation is making sure the user has a good experience when filling out an online form. It allows for data to be sent in a clean format and also allows the user to think less in filling out forms. Form validation makes sure the form is filled out as it is intended to be.  
+
+3. In 1-2 sentences, define end to end testing.
+
+  End-to-end testing is measuring the total functionality of an application. 
+
+
+
+
+
+
+
+
+
 
 ## Instructions
 
