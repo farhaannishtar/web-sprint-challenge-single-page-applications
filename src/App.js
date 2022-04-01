@@ -41,7 +41,7 @@ const initialPizzaOrders = []
 const App = () => {
   const [pizzaOrders, setPizzaOrders] = useState(initialPizzaOrders)
   const [formValues, setFormValues] = useState(initialFormValues);
-  const [formErrors, setFormErrors] = useState(initialFormErrors) // object
+  const [formErrors, setFormErrors] = useState(initialFormErrors)
 
 
 
@@ -76,10 +76,10 @@ const App = () => {
     const newOrder = {
       firstName: formValues.firstName.trim(),
       size: formValues.size.trim(),
-      olives: formValues.olives.trim(),
-      tomatoes: formValues.tomatoes.trim(),
-      mushrooms: formValues.mushrooms.trim(),
-      onions: formValues.onions.trim(),
+      olives: formValues.olives,
+      tomatoes: formValues.tomatoes,
+      mushrooms: formValues.mushrooms,
+      onions: formValues.onions,
       special: formValues.special.trim(),
     }
     postNewOrder(newOrder);
@@ -110,6 +110,16 @@ const App = () => {
           </Route>
         </Switch>
       </main>
+
+      <h1>Below Form </h1>
+      {
+        pizzaOrders.map((order, index) => {
+          return (
+            
+            <div key={index}>{ order.special }</div>
+          )
+        })
+      }
     </>
   );
 };

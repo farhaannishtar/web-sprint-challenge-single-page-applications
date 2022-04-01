@@ -100,7 +100,7 @@ const PizzaForm = (props) => {
           <input 
             id="special-text"
             type="text"
-            name="instructions"
+            name="special"
             value={values.special}
             onChange={onChange}
           />
