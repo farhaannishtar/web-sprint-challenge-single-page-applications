@@ -2,6 +2,8 @@ import React, {useState} from "react";
 import { Switch, Route, Link } from "react-router-dom";
 import "./App.css"
 import Home from "./components/Home";
+import PizzaForm from "./components/PizzaForm";
+
 
 const App = () => {
   return (
@@ -16,6 +18,9 @@ const App = () => {
           <Route exact path="/">
             <Home />
           </Route>
+          <Route path="/pizza">
+          <PizzaForm />
+        </Route>
           <Route exact path="/about">
             <h2>About Page</h2>
           </Route>
