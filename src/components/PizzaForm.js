@@ -30,11 +30,7 @@ const PizzaForm = (props) => {
 
         <div className='errors'>
           <div>{errors.firstName}</div>
-          {/* <div>{errors.email}</div>
-          <div>{errors.role}</div>
-          <div>{errors.civil}</div> */}
         </div>
-
 
         <label>
           Name:
