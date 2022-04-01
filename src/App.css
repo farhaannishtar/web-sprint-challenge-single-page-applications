@@ -1,3 +1,13 @@
+header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+header h2 {
+  color: red;
+}
+
 .App {
   text-align: center;
 }
