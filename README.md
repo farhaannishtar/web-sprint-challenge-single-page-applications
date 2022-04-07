@@ -43,11 +43,11 @@ Demonstrate your understanding of this week's concepts by answering the followin
 
 2. How would you explain form validation to someone who has never programmed before?
 
-  Form validation is making sure the user has a good experience when filling out an online form. It allows for data to be sent in a clean format and also allows the user to think less in filling out forms. Form validation makes sure the form is filled out as it is intended to be.  
+  Form validation is making sure the user has a good experience when filling out an online form. It allows data to be sent in a clean format and also allows the user to think less in filling out forms. Form validation makes sure the form is filled out as it is intended to be. Validating a form is to make sure there aren't any unintential   
 
 3. In 1-2 sentences, define end to end testing.
 
-  End-to-end testing is measuring the total functionality of an application. 
+  End-to-end testing is measuring the total functionality of an application. It's evaluating the complete use experience in using the application 
 
 
 
